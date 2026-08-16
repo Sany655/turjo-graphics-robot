@@ -1,6 +1,11 @@
 # Free & Low-Resource 4K Photorealistic Image Generation Engine
 > **Tailored for AMD Ryzen 5 5600G (Vega 7 APU) + 16 GB RAM & Free Cloud Acceleration (Google Colab / Kaggle).**
 
+### ⚡ Quick Start: How to Run & Generate Your 4K Image
+To generate the 4K luxury sports car image for **100% free**:
+- **Option 1 (Fastest & Zero PC Load — Recommended):** Open [Google Colab](https://colab.research.google.com/), upload **[`turjo_4k_studio.ipynb`](turjo_4k_studio.ipynb)**, enable the free **T4 GPU** under *Runtime ➔ Change runtime type*, and click **Run All** to download your 4K render (`3840×2160`) in ~45 seconds.
+- **Option 2 (100% Offline Local on Ryzen 5600G):** Open your terminal in this folder, install dependencies with `pip install -r requirements.txt`, and execute `python generate_4k_ryzen.py` to synthesize and upscale the image locally within your 16GB RAM limit.
+
 ---
 
 ## 📑 Table of Contents
